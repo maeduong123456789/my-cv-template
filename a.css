@@ -1,0 +1,268 @@
+.container {
+    box-sizing: border-box;
+    max-width: 1320px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col {
+    flex-basis: 0;
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+    max-width: 100%;
+}
+
+.col-1 {
+    flex: 0 0 8.333333%;
+    max-width: 8.333333%;
+}
+
+.col-2 {
+    flex: 0 0 16.666667%;
+    max-width: 16.666667%;
+    /* background-color: black;
+    position: absolute;
+    width: 95px;
+    height: 21px;
+    left: 226px;
+    top: 24px; */
+
+    
+    
+}
+
+.col-3 {
+    flex: 0 0 25%;
+    max-width: 25%;
+    
+
+}
+
+.col-4 {
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+    /* background-color: rgb(22, 225, 70);
+    position: absolute;
+    width: 88px;
+    height: 161px;
+    left: 36px;
+    top: 22px; */
+}
+
+.col-5 {
+    flex: 0 0 41.666667%;
+    max-width: 41.666667%;
+   
+
+}
+
+.col-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+.col-7 {
+    flex: 0 0 58.333333%;
+    max-width: 58.333333%;
+}
+
+.col-8 {
+    flex: 0 0 66.666667%;
+    max-width: 66.666667%;
+
+}
+
+.col-9 {
+    flex: 0 0 75%;
+    max-width: 75%;
+}
+
+.col-10 {
+    flex: 0 0 83.333333%;
+    max-width: 83.333333%;
+    background-color: blue;
+    /* position: absolute;
+    width: 173px;
+    height: 200px;
+    left: 149px;
+    top: 56px;
+    border-radius: 20px ; */
+}
+
+.col-11 {
+    flex: 0 0 91.666667%;
+    max-width: 91.666667%;
+}
+
+.col-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.personal_info {
+    background-color: aqua;
+    position: absolute;
+    width: 400px;
+    height: 854px;
+    left: 315px;
+    top: 120px;
+}
+
+.menu {
+    background-color: #ffffff;
+    position: absolute;
+    width: 560px;
+    height: 144px;
+    left: 1045px;
+    top: 240px;
+
+}
+.about {
+    height: 84px;
+    width: 84px;
+    left: 30px;
+    top: 30px;
+    border-radius: 12px;
+    background-color: #24dd24;
+
+}
+.about :active {
+    position: absolute;
+    left: 5.36%;
+    right: 79.64%;
+    top: 20.83%;
+    bottom: 20.83%;
+    background: linear-gradient(153.43deg, #FA5252 16.67%, #DD2476 100%);
+    border-radius: 12px;
+
+}
+.resume {
+    height: 84px;
+    width: 84px;
+    left: 134px;
+    top: 30px;
+    border-radius: 12px;
+
+}
+.resume {
+    position: absolute;
+    left: 23.93%;
+    right: 61.07%;
+    top: 20.83%;
+    bottom: 20.83%;
+    background: linear-gradient(153.43deg, #FA5252 16.67%, #DD2476 100%);
+    border-radius: 12px;
+
+}
+.works {
+    height: 84px;
+    width: 84px;
+    left: 238px;
+    top: 30px;
+    border-radius: 12px;
+
+}
+.works {
+    position: absolute;
+    left: 42.5%;
+    right: 42.5%;
+    top: 20.83%;
+    bottom: 20.83%;
+    background: #F3F6F6;
+    border-radius: 12px;
+}
+.blogs{
+    height: 84px;
+    width: 84px;
+    left: 342px;
+    top: 30px;
+    border-radius: 12px;
+}
+.blogs:hover {
+    position: absolute;
+    left: 61.07%;
+    right: 23.93%;
+    top: 20.83%;
+    bottom: 20.83%;
+    background: #F3F6F6;
+    border-radius: 12px;
+}
+.contact {
+    height: 84px;
+    width: 84px;
+    left: 446px;
+    top: 30px;
+    border-radius: 12px;
+}
+.contact:hover {
+    position: absolute;
+    left: 79.64%;
+    right: 5.36%;
+    top: 20.83%;
+    bottom: 20.83%;
+    background: #F3F6F6;
+    border-radius: 12px;
+}
+.ag {
+    font-family: Poppins;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+.ag{
+    position: absolute;
+    left: 9.29%;
+    right: 83.57%;
+    top: 54.86%;
+    bottom: 31.25%;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 20px;
+/* identical to box height */
+    text-align: center;
+    color: #FFFFFF;
+}
+.logo {
+    position: absolute;
+    left: 10.54%;
+    right: 85%;
+    top: 32.64%;
+    bottom: 50%;
+    font-family: 'Font Awesome 5 Pro';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 25px;
+/* identical to box height */
+    color: #FFFFFF;
+}
+.resume {
+    position: absolute;
+    left: 23.93%;
+    right: 61.07%;
+    top: 20.83%;
+    bottom: 20.83%;
+    background: #F3F6F6;
+    border-radius: 12px;
+}
+
+.about_section {
+    background-color: black;
+    position: absolute;
+    width: 850px;
+    height: 1206px;
+    left: -200px;
+    top: 200px;
+
+}
